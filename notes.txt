@@ -1,0 +1,6 @@
+1. Intall k6 recorder plugin in chrome browser
+2. Intall har-to-k6 library in your project -> https://www.npmjs.com/package/har-to-k6
+3. Start recording from k6 recorder
+4. Copy the recorded file to project folder
+5. run "npx har-to-k6 recoding.har -o test.js" command to convert har to k6 script
+6. run "k6 run test.js" to run the recorded script
